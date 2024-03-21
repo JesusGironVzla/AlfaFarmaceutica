@@ -1,0 +1,2262 @@
+section{
+    background-image: url(./img/fondo-farmacia.png);
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+}
+
+
+.parallax img{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.parallax{
+    display: flex;
+
+}
+
+#y3{
+    width: 15%;
+    height: 15%;
+    margin-top: 150px;
+}
+
+
+
+#y1{/*LA DOCTORA*/
+    z-index: 1;
+    width: 90%;
+}
+
+#y2{/*PRODUCTO*/
+    margin-top: 350px;
+    z-index: 1;
+    width: 100%;
+    height: 50%;
+
+
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: visible;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+.navbar-nav {
+    display: flex;
+    margin-top: -40px;
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 20px;
+   
+}
+
+
+.navbar-nav a:hover{
+    text-decoration: none;
+    color: #006695;
+}
+
+.container-aliados-com{
+    margin-top: 40px;
+    background: url(./img/BANNER/IMG-20231010-WA0005.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+
+.zona13{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zona13 p{
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+.zona13 span{
+    font-weight: bolder;
+}
+
+
+
+.zona14{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+
+
+
+}
+
+
+.zona14 img{
+    width: 300px;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.zona14 li img{
+    text-decoration: none;
+    
+}
+
+
+#loader{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: url(./img/0830\ \(3\).gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 999;
+    animation-delay: 5s;
+}
+
+.nodisplay{
+    display: none;
+}
+.icon-superior{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-superior a img{
+    width: 150px;
+    margin-left: 100px;
+}
+
+.menu_item img{
+    
+    height: 120px;
+    width: 170px;
+}
+
+.espacio-blanco{
+    width: 70%;
+    
+}
+
+.espacio-blanco2{
+    width: 10%;
+}
+.iconos-azules{
+    width: 20%;
+    background: #0688BB;
+    border-radius: 0 0 50px 50px;
+    
+}
+
+.iconos-azules li a{
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.iconos-azules ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    width: 100%;
+  align-content: center;
+    padding-left: 5px;
+    height: 100%;
+}
+
+.icon-superior{
+   height: 7%; 
+}
+
+
+
+.iconos-azules img{
+    width: 27px;
+    margin-top: 5px;
+}
+
+
+
+
+.menu{
+    
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  
+}
+
+.sep-color{
+    display: flex;
+    flex-direction: row;
+}
+
+.color1{
+    width: 50%;
+    height: 10px;
+    background-color: #006695;
+}
+
+.color2{
+    width: 50%;
+    height: 10px;
+    background-color:#2193b0;
+}
+
+.color3{
+    width: 100%;
+    height: 10px;
+    background-color:black;
+}
+
+.logo-busqueda{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.logo{
+width: 175px;
+margin-left: 25px;
+margin-right: 40px;
+margin-bottom: 25px;
+margin-top: -30px;
+
+}
+
+.menu_item{
+    display: flex;
+    list-style: none;
+   
+    width: 100%;
+    justify-content: space-between;
+ 
+
+}
+
+.menu_item li{
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu_item li a {
+ 
+     text-decoration: none;
+     font-size: 18px;
+     display: block;
+     text-transform: uppercase;
+     color: black;
+}
+
+/*HISTORIA*/
+
+.container-historia{
+    width: 100%;
+    display: flex;
+flex-direction: row;
+}
+
+.historia-izquierda{
+width: 110%;
+background-image: url(./img/BANNER/banner-historia.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.historia-derecha{
+    width: 90%;
+    text-align: justify;
+    
+    display: flex;
+   flex-direction: column;
+   
+}
+.titulo-historia {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-right: 80px;
+    padding-top: 40px;
+    color: grey;
+}
+
+.texto-historia{
+    color: black;
+    font-size: 20px;
+    padding-right: 80px;
+}
+
+
+.texto-historia p{
+    color: #4d4d4d;
+    margin-left: 60px;
+}
+
+.titulo-historia p{
+    color:#4d4d4d;
+}
+/*FIN HISTORIA */
+
+
+
+
+
+
+/*ACORDEON DE PRODUCTOS*/
+
+
+.container-text-acc{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.accordion-item p{
+   color: #3ba6de;
+   font-weight: bold;
+   font-size: large;
+} 
+
+
+/*FIN DE PRODUCTOS*/
+
+
+
+
+
+
+
+
+
+/*Carousel de productos*/
+.container-carousel-productos{
+margin-top: 80px;
+    width: 100%;
+}
+
+.carousel-item img{
+   
+    background-size: cover;
+}
+
+
+.container-img-producto{
+ 
+    width: 100%;
+    display: flex;
+}
+
+.container-img-producto img{
+    width: 100%;
+}
+
+.row-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+
+}
+
+
+.card{
+    display: flex;
+   margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+ border-color: white;
+
+  
+}
+
+
+
+
+
+.carousel-control-prev{
+    margin-left: -20px;
+}
+
+.carousel-control-next{
+    margin-right: -20px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    filter: invert(100%);
+}
+.card-img-top{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.card img{
+ justify-content: center;
+ width: 100%;
+ 
+}
+
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body a {
+    justify-content: center;
+}
+
+.row-card-center{
+    display:flex ;
+    justify-content: center;
+}
+
+.card-title{
+   text-align: center;
+   
+   font-weight: bolder;
+   color: #2193b0;
+   font-size: 20px;
+}
+
+.btn-primary{
+    background-color: #2193b0;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    color: #2193b0;
+}
+
+
+/*EFECTO ROTATIVO */
+
+
+.cont .rotate-3d {
+    height: 200px;
+  
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+    border-radius: 10px;
+    transform-origin: left center;
+  
+}
+
+
+.cont .rotate-3d .face {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.cont .rotate-3d .back {
+        
+    transform: rotate3d( 0 , 1 , 0 , -180deg);
+}
+
+.cont:hover .rotate-3d {
+    transform: translate(100%) rotateY(180deg);
+}
+
+/*FIN EFECTO ROTATIVO*/
+
+
+
+.carousel-control-prev{
+   
+    width: 100px;
+}
+
+.carousel-control-next{
+
+    width: 100px;
+}
+
+.container-carousel-productos img{
+    width: 200px;
+    height: 200px;
+}
+
+.titulo-carousel{
+font-size: 50px;
+text-align: center;
+text-decoration: underline #3ba6de solid 8px   ;
+text-underline-offset: 15px;
+
+}
+
+.titulo-carousel{
+    font-size: 20px;
+}
+
+/*FIN CAROUSEL DE PRODUCTOS
+/*HOVER LA DE BARRA DE NAVEGACION*/
+.menu li:hover{
+    border-bottom-width: 3px;   
+	border-bottom-style: solid;
+    margin-bottom: 10px;
+	border-bottom-color: #3ba6de;
+    transition: .4s;
+   
+}
+
+
+
+.btn_menu{
+    display: none;
+}
+
+ul.show{
+        top: 64px;
+}
+
+
+.container-contact{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-sobre-nosotros{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.container-img-mision{
+    background-image: url(img/CONOCENOS/mision.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-img-vision{
+    background-image: url(img/CONOCENOS/vision.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-img-valores{
+    background-image: url(img/CONOCENOS/valores.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container-mision, .container-vision, .container-valores{
+
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.container-vision{
+    flex-direction: row-reverse;
+    margin-top: 40px;
+}
+
+.container-valores{
+    margin-top: 40px;
+}
+
+
+.mision-titulo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: gray;
+    font-size:20px ;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+.vision-titulo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: gray;
+    font-size:20px ;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+ .valores-titulo{
+ 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: gray;
+    font-size:20px ;
+    padding-left: 70px;
+    padding-right: 70px;
+    
+}
+
+
+/* FIN MISION VISION VALORES*/
+
+
+
+
+.card-container{
+
+    background-color: blue;
+}
+
+
+  /*FORMULARIO */
+  .container-form{
+display: flex;
+flex-direction: column;
+  margin: auto;
+  margin-top: 60px;
+ background-image: url(./img/fondo-formulario.png);
+ width: 80%;
+ height: 150%;
+ background-size: cover;
+ background-repeat: no-repeat;  
+ border-radius: 25px;  
+}
+
+.logo-form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  justify-content: center;
+
+}
+
+.logo-form img{
+    width: 350px;
+    margin-bottom: -100px;
+
+}
+
+
+.container-campos{
+    background-color: white;
+    margin: auto;
+    width: 60%;
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+}
+
+.container-campos-texto{
+    padding: 10%;
+}
+
+.btn-enviar{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+ hr{
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+
+.btn-cool-blues{
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    border: 3px solid #eee;
+    margin-top: 10%;
+    padding: 20px;
+}
+.form-check{
+    margin-top: 50px;
+}
+
+.btn-cool-blues:hover{
+    color: white;
+    font-size: 17px;
+}
+
+.form-control{
+   border-color:#2193b0 ;
+
+}
+.container-campos-texto{
+    color:darkgray;
+}
+
+
+
+  /*FIN DE FORMULARIO*/
+
+/*ALIADOS*/
+.container-aliados{
+    display: flex;
+    width: 100%;
+
+}
+
+.container-aliados ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+  align-items: center;
+
+}
+
+.footer{
+    background-image: url(./img/BANNER/banner-final-pagina.png);
+}
+
+.container-rayas{
+    background-color: #006695;
+    width: 100%;
+}
+
+.container-footer{
+   background-image: url(./img/BANNER/banner-final-pagina.png);
+   background-repeat: no-repeat;
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   background-size: cover;
+  
+
+}
+
+
+.zona4{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+.zona4 img{
+width: 15%;
+}
+
+.zona5{
+width: 100%;
+
+}
+
+
+.titulo-zona5{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+
+
+.lista-zona5 ul{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+  
+}
+
+.lista-zona5 a{
+    color: #fff;
+    font-size:20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.lista-zona5 li{
+
+}
+
+.icon{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.icon img{
+    width: 40px;
+    
+}
+
+
+.zona6{
+width: 100%;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+}
+.zona6 a{
+width: 50px;
+}
+
+
+
+.lista-zona6 li{
+  list-style: none;
+  font-size: 20px;
+
+ }
+ 
+ .lista-zona6 a{
+    color: #fff;
+    font-size:20px;
+    font-weight: 400;
+
+}
+
+
+
+.lista-zona6{
+    color: #fff;
+    width: 50%;
+
+}
+
+.iconos-footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+  
+    
+}
+
+.footer p{
+    color: white;
+}
+
+.iconos-footer img{
+width: 20%;
+}
+
+
+
+
+/*FIN ALIADOS*/
+
+
+
+
+
+.titulo-carousel{
+    padding-bottom: 80px;
+}
+
+
+ .aliados, .formulario{
+    margin-top: 200px;
+}
+ /*FARMACOVIGILANCIA*/
+
+ .farmaco{
+    margin-top: 40px;
+
+ }
+
+.farmaco-sup p{
+  border-style: solid;
+    border-radius: 25px;
+    border-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+    
+}
+
+.farmaco-sup span{
+    color: #006695;
+    font-weight: bolder;
+}
+
+
+.farmaco-sup{
+width: 100%;
+
+margin-right: 500px;
+margin-top: 10%;
+display: flex;
+justify-content: end;
+}
+
+.farmaco-inf{
+width: 100%;
+
+height: 100vh;
+}
+
+
+ .banner-farmaco{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/BANNER/farmacovigilancia.png);
+    background-repeat: no-repeat;
+
+ }
+
+ .banner-farmaco img{
+    width: 90%;
+ }
+
+
+
+ .btn-farmaco{
+    padding-top: 10%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+
+ }
+
+ .btn-farmaco button{
+    font-size: 30px;
+ }
+
+.button a{
+    color: #fff;
+}
+
+.haz-click{
+    display: flex;
+    justify-content: center;
+}
+
+.haz-click a{
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: #3ba6de;
+}
+
+
+ /*FIN FARMACOVIGILANCIA*/
+
+/*PRODUCTOS NUEVOS*/
+.container-productos-nuevos{
+    margin-top: 40px;
+    background-image: url(./img/FONDOS/BACKGROUND-LAMINA-LABORATORIOS.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    display: flex;
+    background-size: cover;
+    flex-direction: row;
+    
+}
+
+.zona1{
+    width: 100%;
+
+
+}
+
+.zona2{
+    
+justify-items: center;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    
+ 
+}
+
+.zona2 img{
+    width: 500px;
+}
+
+.zona2 p{
+    font-weight: bold;
+    border-radius: 25px;
+   background-color: #3ba6de;
+   padding: 20px;
+}
+
+.zona2 img:hover{
+    width: 550px;
+    transition: 0.5s;
+}
+
+
+.zona2 li{
+
+    list-style: none;
+}
+
+
+
+
+
+
+
+/*FIN PRODUCTOS NUEVOS*/
+
+
+/*ICONOS GOBIERNO*/
+.icons-gob{
+    display: flex;
+width: 100%;
+
+
+}
+
+.icons-gob ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+}
+
+.icons-gob img{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+
+.icons-gob li{
+    
+    display: flex;
+}
+/*PRODUCTOS REYOUNG*/
+.logo-alfa-lab{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logo-alfa-lab img{
+    width: 300px;
+}
+
+
+.lista-reyoung{
+    background-image: url(./img/FONDOS/BACKGROUND-LAMINA-LABORATORIOS-REYOUNG.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.zona7{
+    width: 100%;
+    
+}
+
+.zona8{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.zona8 img{
+    width: 500px;
+}
+
+.zona8 ul{
+list-style: square ;
+color: blue;  
+}
+
+.zona8 a{
+text-decoration: none;
+color: black;
+font-size: 25px;
+font-weight: 400;
+}
+
+.zona9{
+    margin-top: 40px;
+}
+
+
+.zona9 a{
+    font-size: 20px;
+    color: #fff;
+    background-color: #006695;
+    border-radius: 25px;
+    padding: 10px;
+font-weight: 500;
+}
+
+.zona8 a:hover{
+    text-decoration: none;
+    color:#2193b0;
+}
+
+
+.zona9 a:hover{
+    color: #006695;
+    background-color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+
+.zona10{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    
+}
+
+.zona10 img{
+    width: 400px;
+}
+
+.zona10 p{
+    font-size: 50px;
+    font-weight: 500;
+    color: #006695;
+}
+
+.zona11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+
+.zona11 ul{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+list-style: none;
+width: 100%;
+margin-bottom: 100px;
+
+}
+
+
+.zona11 li a{
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.zona11 li a:hover{
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2193b0;
+}
+
+
+
+.zona11 li{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.zona12{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+
+.zona12 a{
+    color: #fff;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+/*FIN PRODUCTOS REYOUNG
+
+
+
+
+
+/*FIN ICONOS GOBIERNO*/
+
+@media screen and (max-width: 952px){
+    .logo{
+     width: 200px;
+        
+    }
+
+    .menu_item li a{
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (min-width : 901px){
+  
+}
+
+@media screen and (max-width: 858px) {
+  /*BARRA HAMBURGUESAS TELEFONO*/
+    .menu{
+        height: 100px;
+        color: #3ba6de;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+ 
+    #loader{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: url(./img/0830\ \(3\).gif);
+        background-repeat: no-repeat;
+        background-size:cover;
+        z-index: 999;
+        background-position: center;
+    }
+    
+    .container-footer{
+        display:flex ;
+        flex-direction: column !important;
+        background-color: #006695;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .foot{
+        width: 900% !important;
+    }
+
+
+
+    .footer-secciones{
+        display: none;
+    }
+
+
+
+.btn-primary{
+    width: 100%;
+}
+
+.historia-izquierda, .container-img-mision, .container-img-valores, .container-img-vision{
+    display: none;
+}
+
+.card-img-top{
+
+width: 50px;
+    margin-right: 10px;
+}
+
+.card img{
+    width: 50px;
+}
+
+.mapouter{
+    width: 100% !important;
+}
+
+.gmap_canvas{
+    width:100%;
+}
+
+.redes-sociales{
+    background-color: #006695;
+    padding-bottom: 50px;
+}
+
+.redes-sociales ul{
+    margin-top: 60px;
+}
+
+.footer-sedes{
+    display: flex;
+    flex-direction: column !important;
+    background-color:#006695;
+    padding-left: 0px !important;
+    justify-content: center;
+    width: 100% !important;
+}
+
+.container-aliados-com{
+    background-size: cover;
+}
+
+.mapouter {
+   
+}
+
+.vacio{
+    width: 100%;
+}
+
+
+    .carousel{
+        z-index: 1;
+    }
+
+
+    .btn_menu{
+            display: inline-flex;
+            width: 60px;
+    }
+
+    .menu_item{
+        margin-top: 30px;
+        position: fixed;
+        width: 100vw;
+        height: calc(100%-64px);
+        background: white;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+        z-index: 2;
+      
+    }
+
+    .menu_item li{
+        margin: 30px 0 0 0;
+        line-height: 30px;
+        border-bottom: 5px;
+    }
+
+    .menu_item li:hover{
+        background: none;
+        border-bottom-width: 0px;   
+
+     
+        
+    }
+
+    .menu_item li a {
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+    }
+
+    .menu_item li a:hover{
+      color: #3ba6de;
+    text-decoration: none;
+    
+
+    }
+    .logo{
+       width: 200px;
+    
+    }
+    .container-sobre-nosotros{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container-mision{
+        display: flex;
+       width: 100%;
+
+        background-image: none;
+        justify-content: center;
+
+    }
+
+
+    .container-historia{
+        display: flex;
+        width: 100%;
+ 
+         background-image: none;
+         justify-content: center;
+    }
+
+.mision-titulo, .vision-titulo, .valores-titulo, .texto-historia{
+    width: 80%;
+}
+
+.texto-historia{
+    padding: 0;
+    width: 100%;
+}
+
+.banner-farmaco{
+    background: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+   
+}
+
+.container-productos-nuevos{
+    background: none;
+    margin: 0;
+    margin-top: -400px;
+}
+
+.zona1{
+    display: none;
+}
+
+.farmaco-inf{
+    height: 0;
+}
+.banner-farmaco{
+    height: 0;
+}
+
+.farmaco{
+    height: 0%;
+    margin: 0;
+    padding: 0;
+}
+
+.farmaco{
+    height: 100%;
+}
+
+.lista-reyoung{
+    background: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   margin-top: -100px;
+}
+
+.zona7{
+    display: none;
+}
+
+.zona8 img{
+    border:#006695;
+    border-radius: 25px;
+    border-style: inset;
+
+}
+
+.zona9{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item img{
+height: 200px !important; 
+}
+
+.farmaco-sup {
+display: flex;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   justify-content: center;
+}
+
+.icon-superior{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center
+}
+
+.iconos-azules{
+    width: 250px;
+}
+
+.espacio-blanco{
+    display: none;
+}
+
+.espacio-blanco2{
+    display: none;
+}
+
+.lista-zona5, .titulo-zona5{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.titulo-zona6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-zona5, .titulo-zona6{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.lista-zona5 ul a{
+    font-size: 25px;
+}
+
+
+.lista-zona6 ul a{
+    font-size: 25px;
+}
+
+.lista-zona5 li{
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+
+.lista-zona6{
+    margin: 0;
+}
+
+
+.lista-zona6 ul{
+    margin: 0;
+    width: 100%;
+    
+}
+
+.zona10{
+    display: flex;
+    flex-direction: column;
+}
+
+.zona10 p{
+    text-align: center;
+}
+
+.zona10 img{
+    width: 500px;
+}
+
+.zona11 ul{
+    margin-bottom: 20px;
+
+}
+
+.zona12 p{
+    text-align: center;
+    justify-items: center;
+    
+}
+
+.zona12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    
+}
+
+
+.lista-zona6 li{
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.zona5 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.indicadores img{
+    width: 300px !important;
+}
+
+.cont-ficha-tecnica {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.img-producto{
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content:center !important ;
+
+
+
+}
+    
+
+.nombre-producto{
+    text-align: center;
+    
+}
+
+.descripcion-producto ul span{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    width: 100%;
+}
+.descripcion-producto ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    width: 100%;
+}
+
+
+.indicadores{
+    display: flex;
+    width: 100%;
+ flex-direction: column !important;
+    justify-content: center !important;
+}
+
+.indicadores p{
+    display: flex;
+text-align: center;
+justify-content: center;
+}
+
+.farmaco-sup p{
+padding: 0;
+margin: 0;
+    font-size: 25px;
+    border: #fff;
+}
+
+.btn-primary{
+    width: 50%;
+}
+
+
+.btn-farmaco{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.farmaco-inf{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+
+.titulo-carousel p{
+    font-size: 10px;
+}
+
+    .mision-titulo, .vision-titulo, .valores-titulo{
+        margin-top: 0;
+    }
+    
+    .container-vision{
+        display: flex;
+    
+        background-image: none;
+        justify-content: center;
+    }
+
+    .container-valores{
+        display: flex;
+    
+        background-image: none;
+        justify-content: center;
+    }
+    
+.card{
+   display: flex;
+   justify-content: center;
+   
+ margin: 10px;
+   width: 100px;
+
+}
+
+.btn-primary{
+    font-size: 7px;
+}
+
+.card-title{
+    font-size:7px;
+}
+
+.card img{
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    height: 130px;
+   
+}
+
+.btn-p{
+    width: 20px;
+}
+
+.card-img{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*PARALLAX*/
+#y1{
+height: 500px;
+    width: 500px;
+    position: relative;
+    margin-left: -250px;
+
+}
+
+#y2{
+    height: 200px;
+        width: 500px;
+        position: relative;
+        margin-left: -150px;
+        margin-top: 400px;
+    
+    }
+#y3{
+    width: 120px;
+}
+
+
+/*FIN PARALLAX*/
+
+
+
+/*FOOTER*/
+.zona6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lista-zona6{
+  
+    width: 100%;
+}
+
+.lista-zona6 li{
+    font-size: 20px;
+   
+}
+
+.lista-zona6 li a{
+    
+    font-size: 20px;
+
+}
+
+.lista-zona6 ul{
+    margin-top: 20px;
+}
+
+
+
+.direccion p{
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.zona4 img{
+    width: 200px;
+}
+
+
+.zona6 img{
+    width: 30px;
+    margin-top: 40px;
+}
+/*FIN FOOTER*/
+
+@media screen and (max-width: 858px) and (orientation: landscape) {
+    .menu{
+        margin: 5px 0 0 0;
+    }
+
+    .btn_menu{
+        display: inline-flex;
+    }
+
+    .menu_item{
+      
+        overflow: scroll;
+        height: calc(100%-65px);
+    
+    }
+.titulo-carousel p{
+    font-size: 10px;
+}
+ 
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 858px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+   { 
+    
+    .body{
+        background-color: red;
+    }
+
+}
+
+
+
+/* Informacion de Contacto*/
+
+/*FOOTER*/
+
+.container-footer{
+display:flex ;
+flex-direction: row;
+width: 100%;
+}
+
+.footer-logo{
+
+width: 100% !important;
+  
+}
+
+.footer-logo img{
+width: 1000px !important;
+}
+
+.footer-contacto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0 !important;
+text-align: center;
+    flex-direction: row;
+}
+
+.footer-contacto p{
+   align-items: center;
+}
+
+.footer-secciones{
+    width: 100%;
+    background-color: red;
+  
+}
+
+.container-footer{
+    background-color: #006695;
+    color: #fff;
+}
+
+.footer-secciones ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.footer-contacto{
+    display: flex;
+
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer-sedes{
+    display: flex;
+    width: 100%;
+
+    text-align: center;
+}
+
+
+/*FIN FOOTER*/
+
+/*CONTENEDOR MODAL*/
+.modal-body img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+}
+
+
+
+/*FOOTER*/
+
+.container-footer{
+   display: flex;
+   flex-direction: row;
+padding-bottom: 50px;
+width: 100%;
+
+}
+
+
+
+.footer-logo{
+    background-color: red;
+    height: 100vh;
+}
+
+.container-footer h1{
+    font-size: 40px;
+    color: D6D6D6;
+    font-weight: bolder;
+
+   
+}
+
+.container-footer p {
+    color: #fff;
+}
+
+
+
+.footer-contacto, .footer-logo, .footer-secciones, .footer-sedes{
+    padding-left: 60px;
+}
+
+.footer-secciones ul{
+ 
+        width: 100%;
+    list-style: none;
+    display: flex;
+flex-direction: column;
+   
+}
+
+
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    background-color: #006695;
+    align-items: center;
+
+}
+
+.redes-sociales ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.redes-sociales img{
+    width: 45px;
+    margin-left: 25px;
+  
+}
+
+.redes-sociales img:hover{
+    width: 60px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.modal-body img{
+    width: 200%;
+    height: 125%;
+}
+
+.modal-body-farmaco{
+    background-color: white;
+    border:#3ba6de 6px solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-body-farmaco p{
+text-align: justify;
+    font-size: 20px;
+    justify-content: center;
+    margin: 20px;
+font-weight: bolder;
+color:gray;
+}
+
+.indicadores{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.indicadores img{
+    width: 400px;
+}
+
+.indicadores p{
+    color:#3ba6de;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.color4{
+    background-color: #3ba6de;
+        width: 100%;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.img-producto{
+    width: 1000px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nombre-producto p{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.descripcion-producto ul{
+    list-style: none;
+}
+
+.descripcion-producto span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+
+.titulo-politica{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #3ba6de;
+}
+
+
+.modal-body-farmaco a{
+    cursor: hand;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cont-ficha-tecnica{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cont-ficha-tecnica img{
+    width: 100%;
+}
+
+.descripcion-producto{
+    width: 100%;
+}
+
+
+/*DIRECCION*/
+
+.direccion{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.direccion p{
+    display: flex;
+    justify-content: center;
+}
+
+
+.direccion-svg{
+display: flex;
+justify-content: center;
+}
+
+
+.direccion-svg> svg:hover{
+    width: 85px;
+    height: 85px;
+    transition: 0.5s;
+}
+
+/*FIN DIRECCION*/
+
+/*QUIERES SABER MAS*/
+.cont-quieres{
+    display: flex;
+    justify-content: center;
+
+}
+
+.cont-msv{
+    display: flex;
+    font-size: 20px;
+    
+}
+
+.gap-1{
+    width: 100%;
+  
+    justify-content: center;
+}
+
+.mis,.vis, .val{
+    width: 50%;
+   border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 2px;
+ border-color: #3ba6de;
+ font-size: 15px;
+}
+
+
+/*QUIERES SABER MAS*/
+
+.dark{
+    background-color: #4d4d4d;
+    color: #fff;
+    transition: all 1.5s ease;
+}
+
+
+.dark a, p{
+    color: white;
+}
+
+#toggle{
+    display: none;
+}
+
+#label_toggle{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2em;
+    color: rebeccapurple;
+    cursor: pointer;
+    transition: all 1.5s ease;
+
+}

@@ -1,0 +1,166 @@
+.container {
+
+    height: 100vh;
+    width: 100%;
+
+    justify-content: space-between;
+    display: flex;
+ 
+    align-items: center;
+    margin: 0 auto;
+  }
+  .border-q {
+    height:500px;
+    width: 300px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+  }
+  .border-q:hover {
+    border: 1px solid #fff;
+  }
+  .card-q {
+    height: 500px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .card0-q {
+   background-image: url(./img/MSV/A.png) ;
+    background-size: 300px;
+  }
+  .card0-q:hover {
+    background-image: url(./img/MSV/A.png) left center no-repeat;
+    background-size: 600px;
+  }
+  .card0-q:hover h2{
+    opacity: 1;
+    color: #fff;
+  }
+
+  .card0-q:hover p{
+    opacity: 1;
+    color: #fff;
+  }
+
+  .card1-q:hover p{
+    opacity: 1;
+    color: #fff;
+  }
+
+
+  .card2-q:hover p{
+    opacity: 1;
+    color: #fff;
+  }
+
+
+  .card1-q {
+    background-image: url(./img/MSV/B.png);
+    background-size: 390px;
+  }
+  .card1-q:hover {
+    background-image: url(./img/MSV/B.png) left center no-repeat;
+    background-size: 450px;
+  }
+  .card1-q:hover h2 {
+    opacity: 1;
+    color: #fff;
+  }
+  
+  .card2-q {
+    background-image: url(./img/MSV/C.png);
+    background-size: 300px;
+  }
+  .card2-q:hover {
+    background-image: url(./img/MSV/C.png) left center no-repeat;
+    background-size: 600px;
+  }
+  .card2-q:hover h2 {
+    opacity: 1;
+    color: #fff;
+  }
+
+ .container h2 {
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+   margin-left: 20px;
+   margin-top: 20px;
+   font-weight: 900;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+.container p{
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  font-weight: lighter;
+  margin-top: 20px;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  opacity: 0;
+  transition: opacity 1s; 
+  font-size: 20px;
+text-align: justify;
+padding: 20px;
+ 
+}
+
+
+
+
+.border p:hover{
+  color: #fff;
+}
+  
+
+@media screen and (max-width: 858px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+
+  
+  }
+
+
+  .card-q{
+    width: 300px;
+  margin-top: 30px; 
+ 
+  
+  }
+
+  .border-q{
+    height: 200px;
+    width: 100%;
+  }
+ .container p{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin-top: -25px;
+    opacity: 0;
+    transition: opacity 1s; 
+    font-size: 11px;
+    text-align: justify;
+   
+  }
+  .border-q {
+    height: 200px;
+    width: 300px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+  }
+}
