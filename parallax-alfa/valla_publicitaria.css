@@ -1,4 +1,4 @@
-.sliderv{
+.slider{
     width: 370px;
     height: 600px;
     margin: auto;
@@ -7,7 +7,7 @@
     border-radius: 10px;
     margin-right: 70%;
 }
-.sliderv .listv{
+.slider .list{
     border-radius: 10px;
     position: absolute;
     width: max-content;
@@ -17,13 +17,13 @@
     display: flex;
     transition: 1s;
 }
-.sliderv .listv video{
+.slider .list video{
     border-radius: 10px;
     width: 370px;
     height: 100%;
     object-fit: cover;
 }
-.sliderv .buttonsv{
+.slider .buttons{
     display: none;
     position: absolute;
     top: 45%;
@@ -32,7 +32,7 @@
     display: flex;
     justify-content: space-between;
 }
-.sliderv .buttonsv button{
+.slider .buttons button{
     display: none;
     width: 50px;
     height: 50px;
@@ -43,7 +43,7 @@
     font-family: monospace;
     font-weight: bold;
 }
-.sliderv .dotsv{
+.slider .dots{
     position: absolute;
     bottom: 10px;
     left: 0;
@@ -54,7 +54,7 @@
     display: flex;
     justify-content: center;
 }
-.sliderv .dotsv li{
+.slider .dots li{
     list-style: none;
     width: 10px;
     height: 10px;
@@ -63,7 +63,7 @@
     border-radius: 20px;
     transition: 0.5s;
 }
-.sliderv .dotsv li.active{
+.slider .dots li.active{
     width: 30px;
 }
 
