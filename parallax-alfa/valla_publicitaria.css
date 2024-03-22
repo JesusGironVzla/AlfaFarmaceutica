@@ -1,18 +1,69 @@
-.contentvalla{
-  margin-top: 1%;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.sliderv{
+    width: 370px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 70%;
 }
-
-.slide-nav{
-    width: 80%;
-    height: 220%;
-    border-radius: 10px; 
+.sliderv .listv{
+    border-radius: 10px;
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 2%;
+    display: flex;
+    transition: 1s;
 }
-
-.slides{
-   display: flex;
+.sliderv .listv video{
+    border-radius: 10px;
+    width: 370px;
+    height: 100%;
+    object-fit: cover;
+}
+.sliderv .buttonsv{
+    display: none;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.sliderv .buttonsv button{
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #0a82f3;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.sliderv .dotsv{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #0a82f3;;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.sliderv .dotsv li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #bcc9d6;;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.sliderv .dotsv li.active{
+    width: 30px;
 }
 
