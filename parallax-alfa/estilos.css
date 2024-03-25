@@ -2258,7 +2258,6 @@ justify-content: center;
     color: rebeccapurple;
     cursor: pointer;
     transition: all 1.5s ease;
-
 }
 /*BOTON REDES SOCIALES*/
 #redessociales {
@@ -2358,7 +2357,7 @@ justify-content: center;
 
     background-size: cover;
   }
-  
+
   .smedia.vimeo {
     background: url(img/BOTONES/whatsapp.png);
 
