@@ -52,9 +52,13 @@ body{
   
 }
 
+
+
+
+
 .navbar-nav {
     display: flex;
-    margin-top: -40px;
+ 
     width: 100%;
     justify-content: space-between;
     margin-right: 20px;
@@ -155,11 +159,19 @@ body{
 
 .espacio-blanco{
     width: 70%;
-    
+
 }
 
 .espacio-blanco2{
     width: 10%;
+   
+
+    
+}
+
+
+.btn-carrito{
+    
 }
 .iconos-azules{
     width: 20%;
@@ -247,7 +259,7 @@ width: 175px;
 margin-left: 25px;
 margin-right: 40px;
 margin-bottom: 25px;
-margin-top: -30px;
+margin-top: 10px;
 
 }
 
@@ -2258,7 +2270,12 @@ justify-content: center;
     color: rebeccapurple;
     cursor: pointer;
     transition: all 1.5s ease;
+  
+
 }
+
+
+
 /*BOTON REDES SOCIALES*/
 #redessociales {
     margin-left: 90%;
@@ -2366,3 +2383,17 @@ justify-content: center;
   .smedia:hover {
       background-position: 0 -46px;
   }
+
+
+  /*BARRA DE NAVEGACION FRAME*/
+.nav-frame{
+    width: 100%;
+   
+
+}
+
+
+  /*FIN BARRA DE NAVEGACION FRAME*/
+
+
+  
