@@ -2195,6 +2195,10 @@ color:gray;
 
 }
 
+.direc{
+    width: 30px;
+}
+
 .direccion p{
     display: flex;
     justify-content: center;
@@ -2204,12 +2208,13 @@ color:gray;
 .direccion-svg{
 display: flex;
 justify-content: center;
+width: 30px;
 }
 
 
 .direccion-svg> svg:hover{
-    width: 85px;
-    height: 85px;
+    width: 30px;
+    height: 30px;
     transition: 0.5s;
 }
 
