@@ -3,13 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 40%;
     width: 100%;
     padding: 10px;
   }
   
   .recipe-container {
-    background: rgba(189, 181, 181, 0.1);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 253, 253, 0.26);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.219);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -22,7 +23,7 @@
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
-    color: #a3cbdd;
+    color: #52525294;
     margin: 20px 0 40px;
   }
   
@@ -34,7 +35,7 @@
   
   .swiper-scrollbar {
     --swiper-scrollbar-bottom: 0;
-    --swiper-scrollbar-drag-bg-color: #a3cbdd;
+    --swiper-scrollbar-drag-bg-color: #78c4e7;
     --swiper-scrollbar-size: 5px;
   }
   
@@ -43,7 +44,7 @@
     font-size: 1rem;
     font-weight: 500;
     color: var(--clr-text);
-    background: rgba(149, 176, 236, 0.2);
+    background: rgba(149, 176, 236, 0.274);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 16px 16px 0;
