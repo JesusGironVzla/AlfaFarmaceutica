@@ -1,0 +1,103 @@
+/*BOTON REDES SOCIALES*/
+#redessociales {
+    margin-top: -3.5%;
+    margin-left: 87%;
+    width: 50px;
+    height: 50px;
+    border-radius: 75px;
+    border: 5px solid #fff;
+    background: url(img/BOTONES/boton-para-la-pag-web-redes-sociales.png);
+    background-size: cover;
+    
+  }
+  
+
+.smedia {
+position: absolute;
+-webkit-transition: left 0.5s cubic-bezier(0.1,0.8,0.9,1), opacity 1s linear;
+-moz-transition: left 0.5s cubic-bezier(0.1,0.8,0.9,1),opacity 1s linear;
+-o-transition: left 0.5s cubic-bezier(0.1,0.8,0.9,1), opacity 1s linear;
+display: inline;
+opacity: 0;
+width: 46px;
+height: 46px;
+z-index: 100;
+margin-left: 66%;
+text-indent: -9999px;
+background: no-repeat;
+left:3px;
+margin-top: 10px;
+  }
+  
+  #redessociales:hover .smedia {
+    opacity: 1;
+    transform: translate(0px,0);
+    -webkit-transform: translate(0px,0);
+    -o-transform: translate(0px,0); 
+    -moz-transform: translate(0px,0);
+    margin:10px 0px 0px 20px;
+    position: absolute;
+    margin-left: 63%;
+
+  }
+  #redessociales:hover .smedia:nth-child(1) {
+    position: absolute;
+    left:65px;
+  }
+  
+  #redessociales:hover .smedia:nth-child(2) {
+    position: absolute;
+    left:110px;
+  }
+  #redessociales:hover .smedia:nth-child(3) {
+    position: absolute;
+    left:155px;
+  }
+  #redessociales:hover .smedia:nth-child(4) {
+    position: absolute;
+    left:200px;
+  }
+  #redessociales:hover .smedia:nth-child(5) {
+    position: absolute;
+    left:245px;
+  }
+  
+  #redessociales:hover .smedia:nth-child(6) {
+    position: absolute;
+    left:290px;
+  }
+  
+  .smedia.facebook {
+      background: url(img/BOTONES/logotipo-facebook.png);
+
+      background-size: cover;
+  }
+  .smedia.twitter {
+    background: url(img/BOTONES/threads.png);
+
+    background-size: cover;
+  }
+  .smedia.email {
+    background: url(img/BOTONES/linkdin.png);
+
+    background-size: cover;
+  }
+  .smedia.instagram {
+    background: url(img/BOTONES/instagram.png);
+
+    background-size: cover;
+  }
+  .smedia.youtube {
+    background: url(img/BOTONES/youtube.png);
+
+    background-size: cover;
+  }
+
+  .smedia.vimeo {
+    background: url(img/BOTONES/whatsapp.png);
+
+    background-size: cover;
+  }
+  .smedia:hover {
+      background-position: 0 -46px;
+  }
