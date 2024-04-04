@@ -192,8 +192,10 @@ ul{
     -webkit-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
     box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
   }
   
+
   svg {
     position: absolute;
     z-index: 1;
@@ -343,6 +345,7 @@ ul{
   
   .slide1 {
     background-image: url("/parallax-alfa/img/presentacion/5.png");
+    
   }
   
   .slide2 {
@@ -357,6 +360,7 @@ ul{
     background-image: url("/parallax-alfa/img/presentacion/4.png");
   }
   
+
   .slider {
     position: absolute;
     width: 400%;
@@ -364,6 +368,7 @@ ul{
     background: #000;
     display: inline-flex;
     overflow: hidden;
+   
   }
   
   .slide1, .slide2, .slide3, .slide4 {
@@ -380,6 +385,7 @@ ul{
     height: 100%;
     z-index: 10;
     transition: 1.4s;
+    
   }
   
   .tran {

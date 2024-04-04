@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:800");
+
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.farmaproduct{
+    width: 100%;
+    -webkit-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+}
+
+.sectionp{
+    margin-top: 0.5%;
+}
+
+.producenv{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 60%;
+}
+
+.tittleproduc p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -28%;
+    margin-left: 70%;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+.tittleproduc2 p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -1.7%;
+    margin-left: 79%;
+    color: #006eff;
+}
