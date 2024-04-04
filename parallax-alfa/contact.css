@@ -1,0 +1,58 @@
+    .container-campos{
+        margin-left: 30%;
+        background: url(/parallax-alfa/img/fondo-formulario.png);
+        margin-top: 2%;
+        width: 40%;
+        border-top-left-radius: 20px 20px;
+        border-top-right-radius: 20px 20px;
+        border-bottom-left-radius: 20px 20px;
+        border-bottom-right-radius: 20px 20px;
+        -webkit-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+    }
+    
+    .container-campos-texto{
+        padding: 10%;
+    }
+    
+    .btn-enviar{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    
+    }
+     hr{
+        margin-top: 0;
+        margin-bottom: 0;
+     }
+    
+    .btn-cool-blues{
+        background: #2193b0;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        color: #fff;
+        border: 3px solid #eee;
+        width: 18%;
+        margin-left: 7%;
+        padding: 8px;
+    }
+    .form-check{
+        margin-top: 50px;
+    }
+    
+    .btn-cool-blues:hover{
+        color: white;
+        font-size: 17px;
+    }
+    
+    .form-control{
+       border-color:#2193b0 ;
+    
+    }
+    .container-campos-texto{
+        color:rgb(75, 75, 75);
+    }
+    
+    
+    

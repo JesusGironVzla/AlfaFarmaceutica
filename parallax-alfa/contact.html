@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Alfa Farmaceutica</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -20,22 +20,21 @@
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-        <link rel="stylesheet" href="/parallax-alfa/botonredes.css">
-
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   
+        
      <!------------------------------------------------------------------------------------------->
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-        <link rel="stylesheet" href="/parallax-alfa/home.css">
-        <link rel="stylesheet" href="/parallax-alfa/footer.css">
-        <link rel="stylesheet" href="/parallax-alfa/produc.css">
-
-
-
+        <link rel="stylesheet" href="/parallax-alfa/home2.css">
+        <link rel="stylesheet" href="/parallax-alfa/footer3.css">
+        <link rel="stylesheet" href="/parallax-alfa/contact.css">
+        <link rel="stylesheet" href="/parallax-alfa/redes2.css">
+        
     </head>
     <body>
-
-    <!--Content/serv-->
-      <div class="contentbar">
+       <!--Content/serv-->
+       <div class="contentbar">
         <nav class="nav-bar">
              <img src="/parallax-alfa/img/logo-para-paginaweb.png" alt="logo-alfa" class="nav-log">
              <ul class="nav-menu">
@@ -76,48 +75,86 @@
          <div class="colorbluemoon"></div>
     </div>
 
+     <!----------Formulario-------------->
 
-    <!-----------------Section Product---------------------->          
-
-       <section class="producsection">
-            <div class="sectionp">
-                  <img class="farmaproduct" src="/parallax-alfa/img/produc.jpg" alt="">
-            </div>
-       </section>
-
-       <div class="containersearch">
-        <div class="search-input-box">
-          <input type="text" placeholder="¿Qué quieres buscar?" />
-          <a href="#" target="_blank">
-            <i class="fa-solid fa-magnifying-glass icon"> </i>
-          </a>
-                  <ul class="container-suggestions">
-                      <li>sugerencia 1</li>
-                      <li>sugerencia 2</li>
-                      <li>sugerencia 3</li>
-                  </ul>
+  <section>
+    <div class="formulario" id="formulario">
+        <form action="https://formsubmit.co/jesusgironhb@gmail.com" method="POST" >
+      <div class="container-form" id="contacto">
+       <div class="container-campos">
+        <div class="container-campos-texto">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido  </label>
+          <input type="text" class="form-control" name="Nombre :" id="exampleFormControlInput1" placeholder="Ej. Pedro Perez">
         </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+          <input type="email" class="form-control" name="Correo :" id="exampleFormControlInput1" placeholder="correo@ejemplo.com">
+        </div>
+        <label for="exampleFormControlInput1" class="form-label">Estado</label>
+        <select class="form-select" name="Estado : aria-label="Default select example">
+      
+          <option selected>Estado</option>
+          <option value="1">Amazonas</option>
+          <option value="2">Anzoátegui</option>
+          <option value="3">Apure</option>
+          <option value="4">Aragua</option>
+          <option value="5">Barinas</option>
+          <option value="6">Bolívar</option>
+          <option value="7">Carabobo</option>
+          <option value="8">Cojedes</option>
+          <option value="9">Delta Amacuro</option>
+          <option value="10">Distrito Capital</option>
+          <option value="11"> Falcón</option>
+          <option value="12">Guárico</option>
+          <option value="13">Lara</option>
+          <option value="14">Mérida</option>
+          <option value="15">Miranda</option>
+          <option value="16">Monagas</option>
+          <option value="17">Nueva Esparta	</option>
+          <option value="18">Portuguesa</option>
+          <option value="19">Sucre</option>
+          <option value="20">Táchira</option>
+          <option value="21">Trujillo</option>
+          <option value="22">La Guaira</option>
+          <option value="23">Yaracuy</option>
+          <option value="24">Zulia</option>
+      
+        </select>
+        <label for="exampleFormControlInput1" class="form-label">Ciudad</label>
+      
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <textarea class="form-control" name="Mensaje :" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Acepta los términos y condiciones
+            </label>
+            <div class="invalid-feedback">
+             Debes aceptar los términos y condiciones antes de enviar.
+            </div>
+          </div>
+        </div>
+        <div class="col-12 btn-enviar">
+          <button class="btn btn-cool-blues" type="submit">CONTÁCTANOS</button>
+        </div>
+       </div>
+      
+      
+      
       </div>
+      
+      </div>
+      </form>
+      </div>
+    
+  </section>
+    
 
-
-       <!---------------Section Link-------------------->
-
-            <section class="linkproduct">
-                  <div class="tittleproduc">
-                      <p>NUESTROS</p>
-                  </div>
-                  <div class="tittleproduc2">
-                    <p>PRODUCTOS</p>
-                </div>
-                 <div class="producenv">
-                    <li><a href="reyoung.html"><img src="./img/REDESSOCIALES/BOTON-REYOUNG.png" alt=""></a></li>
-                    <li><a href="wellona.html"><img src="./img/REDESSOCIALES/BOTON-WELLONA.png" alt=""></a></li>            
-                 </div>
-            </section>
-
-
-         
-      <!------------Foooter/Section----------------->
+    <!------------Foooter/Section----------------->
     
     <section class="trial-block shadow3 sectionfooter" id="ContactUs">
         <div class="height450">
@@ -199,15 +236,15 @@
   <div class="remit5">
     <img src="/parallax-alfa/img/REDESSOCIALES/logo-sacs.png" alt="">
   </div>
-  <!--------------------------------------------------------->
+  
   
   </section>
-  
-  <!------------------JS Section--------------------->
+
+ 
+
+  <!-----------------JS Section-------------------->
   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/44860160.js"></script>
-  <script src="/parallax-alfa/buscador.js"></script>
-  <script src="/parallax-alfa/claves.js"></script>   
-  <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>   
-       
-  </body>
+  <script src="" async defer></script>
+
+    </body>
 </html>
