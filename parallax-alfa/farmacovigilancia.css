@@ -182,7 +182,7 @@
   display: flex;
   align-items: center;
   height: 100%;
-  color: #1111115d;
+  color: #111111;
 }
 @media (min-width: 54em) {
   .slides-nav {
@@ -218,12 +218,12 @@
   left: 0;
   height: 1px;
   width: 0;
-  background: #11111181;
+  background: #111111;
   transition: width 0.4s ease;
 }
 .slides-nav button:hover {
   cursor: pointer;
-  color: rgba(17, 17, 17, 0.438);
+  color: rgb(17, 17, 17);
   transition: color 0.5s ease;
 }
 .slides-nav button:hover:after {
