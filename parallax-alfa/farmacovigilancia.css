@@ -373,3 +373,20 @@
 .is-sliding .slide__img {
   filter: grayscale(100%);
 }
+
+@media (max-width:858px){
+  ul{
+    position: fixed;
+    z-index: 2;
+  }
+
+  .slides{
+    z-index: 1;
+  }
+
+  .slide__content{
+    position: static;
+    margin-left: 0px !important;
+  }
+
+}
