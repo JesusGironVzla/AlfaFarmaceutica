@@ -638,7 +638,7 @@ font-size: 1px !important;
 
   }
 
-  .row{
+  .row > *{
     max-width: 120% !important;
   }
 }
