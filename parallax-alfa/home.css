@@ -451,6 +451,7 @@ nav ul li a{
   align-items: center;
   margin-left: 0;
   margin-top: 20px;
+  width: 50% !important;
 }
 
 
@@ -470,7 +471,7 @@ margin-right: 20px;
 ul{
 position: fixed;
   width: 100%;
-  height: 100%;
+  height: 50%;
   background-color: white;
   z-index: 2;
   display: flex;
@@ -562,9 +563,19 @@ height: 20% !important;
 }
 
 .footerbanalfa{
-  
-  height: 70vh !important;
+ background-size: contain;
+ height: 100vh;
+width: 400% !important;
+overflow: hidden;
 }
+
+.height450{
+  height: 450px !important;
+}
+
+
+
+
 .linksin a{
   text-align: center;
   display: flex;
@@ -575,7 +586,7 @@ height: 20% !important;
 }
 
 .linksin{
-  margin-top: -190px;
+
 }
 .titlelink{
   display: none;
@@ -616,18 +627,61 @@ font-size: 1px !important;
   display: none;
 }
 .blog-slider__img{
-  margin-top: 300px !important;
+  margin-top: 500px !important;
+}
+.banner-movil{
+  display: block;
+  background-color: #000;
+  height: 100%;
+}
+
+.banner-movil img{
+height: 100%;
+background-color: #000;
+width: 100%;
+}
+.footerbanneralfa> img{
+  display: none;
+} 
+.height450{
+  background-image: url(./img/SSSS.png);
+  height: 100vh;
+}
+.social-icons a{
+  margin: 15px 10px!important; 
+  margin-right: 40px !important;
+}
+
+.linksin {
+  
+margin-top: -150px;
+
+}
+
+.cppy{
+  margin-top: 20% !important;
+  margin-left: 30% !important;
+}
+
+.logo-movil img{
+  width: 200px;
+  z-index: 1;
+  position: initial;
+  margin-top: -650px;
+  margin-left: 100px;
+}
 }
 
 
-}
 
 
 @media (max-width: 1536px){
   .col-md-10{
     width: 100% !important;
   }
-
+.footerbanalfa{
+  margin-top: 60px !important;
+}
   
 }
 
@@ -641,4 +695,19 @@ font-size: 1px !important;
   .row > *{
     max-width: 120% !important;
   }
+
+  
+}
+
+
+.banner-movil{
+  display: none;
+}
+
+#logo-movil img{
+  display: none;
+}
+
+.height450{
+  height: 0px;
 }

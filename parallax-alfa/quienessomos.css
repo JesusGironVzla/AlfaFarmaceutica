@@ -454,6 +454,13 @@ body {
     margin-right: 20px;
     }
     
+    .logo-movill img{
+      width: 200px;
+      z-index: 1;
+      position: initial;
+      margin-top: -900px;
+      margin-left: 100px;
+    }
     
     ul{
     position: relative;
@@ -469,7 +476,18 @@ body {
       border-radius: 20px;
     
     }
-    
+.social-icons{
+  margin-top: -200px !important ;
+}
+
+.col-md-10{
+  max-width: 100% !important;
+}
+
+.social-icons a{
+  margin: 15px 10px!important; 
+}
+
     li{
       margin-bottom: 50px;
     }

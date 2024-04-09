@@ -55,4 +55,17 @@
     }
     
     
-    
+    @media (max-width:858px){
+        .container-campos{
+            margin-left: 0px !important;
+            width: 100%;
+        }
+
+        .social-bar{
+            margin-top: 100px !important;
+        }
+
+        .btn-cool-blues{
+            width: 60%;
+        }
+    }

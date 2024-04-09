@@ -388,5 +388,54 @@
     position: static;
     margin-left: 0px !important;
   }
+  .slide__header{
+    width: 200% !important;
+  }
 
+  .arreglo2, .arreglo3{
+display: none;
+  }
+  .slide__title{
+    font-size: 25px;
+    
+  }
+
+  .slides-nav__nav{
+    right: 50px;
+    top: 100px
+  }
+
+  .arreglo{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    margin-left: 0 !important;
+    margin-top: -400px;
+  }
+
+  .envsec{
+    margin-left: -40%;
+  }
+.slides{
+  height: 70vh !important;
+}
+  .slide__figure{
+    height: 60%;
+  }
+
+  .social-bar{
+    margin-top: 20px !important;
+  }
+
+  .social-icons{
+    margin-top: -100px !important ;
+  }
+  
+  .col-md-10{
+    max-width: 100% !important;
+  }
+  
+  .social-icons a{
+    margin: 15px 10px!important; 
+  }
 }
