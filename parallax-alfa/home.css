@@ -634,6 +634,11 @@ font-size: 1px !important;
 
 @media (max-width: 1280px){
   .col-md-10{
-    width: 100% !important;
+    width: 120% !important;
+
+  }
+
+  .row{
+    max-width: 120% !important;
   }
 }
