@@ -615,8 +615,16 @@ font-size: 1px !important;
 .siguenos{
   display: none;
 }
+.blog-slider__img{
+  margin-top: 300px !important;
+}
+
 
 }
 
 
-
+@media (max-width: 1536px){
+  .col-md-10{
+    width: 100% !important;
+  }
+}
