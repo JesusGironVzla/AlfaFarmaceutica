@@ -394,6 +394,7 @@
 
   .arreglo2, .arreglo3{
 display: none;
+
   }
   .slide__title{
     font-size: 25px;
@@ -412,7 +413,18 @@ display: none;
     margin-left: 0 !important;
     margin-top: -400px;
   }
+  .logo-movill img{
+    width: 200px;
+    z-index: 1;
+position:absolute;
+margin-top: -430px;
+margin-left: 100px;
 
+  }
+
+.cppy{
+  margin-top: 120px !important;
+}
   .envsec{
     margin-left: -40%;
   }

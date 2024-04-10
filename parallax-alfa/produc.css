@@ -114,3 +114,34 @@ body{
 .container-suggestions li:hover{
     background-color: #414b57;
 }
+
+@media (max-width:858px){
+	.producenv{
+		margin-left: 0 !important;
+	}
+
+	.producenv img{
+		width: 100%;
+	}
+
+	.tittleproduc p{
+		margin-left: 150px !important;
+		margin-bottom: 20px;
+	}
+
+	.tittleproduc2 p{
+		margin-left: 140px !important;
+	}
+	.social-icons{
+		margin-top: -0px !important ;
+	  }
+	  
+	  .col-md-10{
+		margin-top: 200px !important;
+		max-width: 100% !important;
+	  }
+	  
+	  .social-icons a{
+		margin: 15px 10px!important; 
+	  }
+}

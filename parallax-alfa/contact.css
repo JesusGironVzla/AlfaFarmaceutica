@@ -63,9 +63,24 @@
 
         .social-bar{
             margin-top: 100px !important;
+            margin-bottom: 100px;
         }
 
         .btn-cool-blues{
             width: 60%;
         }
+
+        .social-icons{
+            margin-top: -5px !important ;
+          }
+          
+          .col-md-10{
+            max-width: 100% !important;
+          }
+          
+          .social-icons a{
+            margin: 15px 10px!important; 
+          }
+
+          
     }
