@@ -26,9 +26,10 @@
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <link rel="stylesheet" href="/parallax-alfa/home.css">
-        <link rel="stylesheet" href="/parallax-alfa/footer.css">
+        <link rel="stylesheet" href="/parallax-alfa/footer5.css">
         <link rel="stylesheet" href="/parallax-alfa/produc.css">
         <link rel="stylesheet" href="/parallax-alfa/quienessomos.css">
+        <link rel="stylesheet" href="/parallax-alfa/buscar.css">
 
 
 
@@ -88,20 +89,73 @@
             </div>
        </section>
 
-       <div class="containersearch">
-        <div class="search-input-box">
-          <input type="text" placeholder="¿Qué quieres buscar?" />
-          <a href="#" target="_blank">
-            <i class="fa-solid fa-magnifying-glass icon"> </i>
-          </a>
-                  <ul class="container-suggestions">
-                      <li>sugerencia 1</li>
-                      <li>sugerencia 2</li>
-                      <li>sugerencia 3</li>
-                  </ul>
-        </div>
+       <!-------------Buscador-------------->
+   <div class="buscadorsection">
+       <input type="search" id="input-search" placeholder="¿Qué quieres buscar?">
+       <i class="fa-solid fa-magnifying-glass icon sericon"> </i>
+       <div class="content-search">
+           <div class="content-table">
+               <table id="table">
+                   <thead>
+                       <tr>
+                           <td></td>
+                       </tr>
+                   </thead>
+                   
+                   <tbody>
+                       <tr>
+                           <td><a href="https://www.youtube.com/watch?v=Gqto7IflO84&t=61s">Inicio</a></td>
+                       </tr>
+                       
+                       <tr>
+                           <td><a href="#">css</a></td>
+                       </tr>
+                       
+                       <tr>
+                           <td><a href="#">index</a></td>
+                       </tr>
+                       
+                       <tr>
+                           <td><a href="#">php</a></td>
+                       </tr>
+                       
+                       <tr>
+                           <td><a href="#">html</a></td>
+                       </tr>
+                       
+                       <tr>
+                           <td><a href="#">jueos</a></td>
+                       </tr>
+                       
+                       <tr>
+                           <td><a href="#">call of duty</a></td>
+                       </tr>
+                       
+                       <tr>
+                           <td><a href="#">need for speed</a></td>
+                       </tr>
+                       
+                       <tr>
+                           <td><a href="#">mario</a></td>
+                       </tr>
+                       
+                       <tr>
+                           <td><a href="#">pap</a></td>
+                       </tr>
+                       
+                       <tr>
+                           <td><a href="#">pop</a></td>
+                       </tr>
+                       
+                       <tr>
+                           <td><a href="#">carrear</a></td>
+                       </tr>
+                       
+                   </tbody>
+               </table>
+           </div>
+       </div>
       </div>
-
 
        <!---------------Section Link-------------------->
 
@@ -144,9 +198,6 @@
         </div> 
         
      
-     <div class=" logo-movill" >
-     <img src="./img/logo-alfa-blanco.png" alt="">
-     </div>
             <div class="footerbanneralfa">
               <img src="/parallax-alfa/img/container/fooder pweb alfa.png" alt="" class="footerbanalfa">
            
@@ -220,8 +271,9 @@
      
   <!------------------JS Section--------------------->
   <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/44860160.js"></script>
-  <script src="/parallax-alfa/buscador.js"></script>
-  <script src="/parallax-alfa/claves.js"></script>   
+  <script src="/parallax-alfa/jquery.dataTables.min.js"></script>
+  <script src="/parallax-alfa/jquery.js"></script>
+  <script src="/parallax-alfa/buscador.js"></script>   
   <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>   
        
   </body>
