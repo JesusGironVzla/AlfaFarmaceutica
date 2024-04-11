@@ -709,5 +709,5 @@ margin-top: -150px;
 }
 
 .height450{
-  height: 0px;
+  height: 0px !important;
 }
