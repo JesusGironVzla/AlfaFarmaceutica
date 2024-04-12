@@ -446,6 +446,11 @@ nav ul li a{
   display: block;
 }
 
+.compra-movil{
+  display: inline;
+}
+
+
 .nav-menu{
   display: flex;
   align-items: center;
@@ -677,7 +682,9 @@ margin-top: -150px;
 .footerbanalfa{
   margin-top: 60px !important;
 }
-  
+.compra-movil{
+  display: none;
+}
 }
 
 
@@ -690,7 +697,9 @@ margin-top: -150px;
   .row > *{
     max-width: 120% !important;
   }
-
+  .compra-movil{
+    display: none;
+  }
   
 }
 
@@ -722,7 +731,9 @@ margin-top: -150px;
  }
 
  
-
+.compra-movil{
+  display: none;
+}
 
   .parent{
       width: 100%;
