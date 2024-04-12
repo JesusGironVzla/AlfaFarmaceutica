@@ -21,6 +21,9 @@
     text-transform: uppercase;
 }
 
+.logbanblan{
+   display: none;
+}
 
 .social-overlap {
     margin-left: 21%;
@@ -557,7 +560,7 @@ a {
 /**********************SITELINKS****************************/
 
 .linksin{
-  margin-top: -42%;
+  margin-top: -38%;
 }
 
 .locationname h2{
@@ -572,7 +575,7 @@ a {
 
 .contacwha a{
   margin-left: -8%;
-  margin-top: -11%;
+  margin-top: -13%;
   font-size: 20px;
 }
 
@@ -597,11 +600,11 @@ a {
 
 .catna{
   margin-left: -52%;
-  margin-top: -45%;
+  margin-top: -50%;
 }
 
 .location{
-  margin-top: 20%;
+  margin-top: 23%;
   margin-left: 10%;
 
 }
@@ -614,7 +617,7 @@ a {
 
 .remit{
   margin-left: 20%;
-  margin-top: 7%;
+  margin-top: 6%;
   width: 200%;
 }
 
@@ -626,13 +629,13 @@ a {
 
 .remit3{
   margin-left: 46%;
-  margin-top: -7.9%;
+  margin-top: -8.1%;
   width: 135%;
 }
 
 .remit4{
   margin-left: 60%;
-  margin-top: -7.9%;
+  margin-top: -8.1%;
   width: 88%;
 }
 
@@ -645,9 +648,9 @@ a {
 
 .logblan img{
   margin-left: 30%;
-  margin-top: 35%;
+  margin-top: -5%;
   width: 35%;
-   display:flex !important;
+  display:flex !important;
 }
 
 }

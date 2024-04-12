@@ -552,6 +552,7 @@ body {
          }
 
         .mmvvision{
+          margin-top: 3%;
           border-radius: 10px;
           margin-left: 5%;
           width: 90%;
@@ -562,6 +563,7 @@ body {
         }
 
         .mmvmvalores{
+          margin-top: 5%;
           border-radius: 10px;
           margin-left: 5%;
           width: 90%;
@@ -666,6 +668,47 @@ body {
       margin-bottom: 30px;
       line-height: 1.5em;
     }
-  }
 
     
+
+    .misionmovil{
+      width: 85%;
+      margin-left: 10%;
+    }
+
+   .misionmovil p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(230, 230, 230);
+    margin-top: -30%;
+    font-weight: bold;
+   }
+
+   .visionmovil{
+    width: 85%;
+    margin-left: 10%;
+  }
+
+   .visionmovil p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(230, 230, 230);
+    margin-top: -20%;
+    font-weight: bold;
+   }
+
+   .valoresnmovil{
+    width: 95%;
+    margin-left: 5%;
+   }
+   
+   .valoresnmovil p{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(219, 219, 219);
+    margin-top: -20%;
+    font-weight: bold;
+    
+   }
+
+  }
+
+
+    /************************************************************************/
