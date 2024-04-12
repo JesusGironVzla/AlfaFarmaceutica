@@ -1,5 +1,5 @@
 .publi{
-margin-top: -5%;
+  margin-top: -5%;
   width: 100%;
   -webkit-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
@@ -7,7 +7,49 @@ margin-top: -5%;
 
 }
 
+.movepub{
+  display: none;
+}
+
+
 .readmore{
    margin-top: -20%;
    margin-left: 58%;
+}
+
+/***********************Baner responsive********************************/
+
+@media (max-width:1080px) {
+  .publi {
+    display: none;
+      margin-top: -34%;
+      height: 200px;
+      width: 100%;
+      -webkit-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+      box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+      
+    }
+     
+    
+   .logmuve img{
+    display: flex;
+    margin-top: -34%;
+    height: 200px;
+    width: 100%;
+    -webkit-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
+    
+   }
+
+    .readmore {
+      margin-top: -13%;
+      margin-left: 59%;
+   }
+    
+   .readmore{
+     width: 40%;
+    
+   }
 }
