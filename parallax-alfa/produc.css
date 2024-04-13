@@ -31,7 +31,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
-    margin-top: -8%;
+    margin-top: -40%;
     margin-left: 70%;
     color: rgba(0, 0, 0, 0.678);
 }
@@ -125,6 +125,14 @@ body{
 	width: 100%;
 	
  }
+ 
+
+
+.farmaproduct{
+	margin-top: 1%;
+   width: 100%;
+   height: 350px;
+}
 
 .containersearch{
 	margin-top: -110%;
@@ -132,13 +140,17 @@ body{
 	width: 90%;
 }
 
-.tittleproduc{
-	margin-left: -160%;
+.linkproduct{
+	margin-top: 35%;
 }
 
-.tittleproduc2{
+.tittleproduc p{
+	margin-left: 22%;
+}
+
+.tittleproduc2 p{
 	margin-top: -5.4%;
-	margin-left: -150%;
+	margin-left: 48%;
 }
   .producenv img{
 	margin-left: -152%;
