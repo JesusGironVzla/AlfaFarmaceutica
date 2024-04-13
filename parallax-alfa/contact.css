@@ -11,6 +11,10 @@
     -moz-box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
     box-shadow: 0 0 88px 5px rgba(0, 0, 0, 0.75);
     }
+
+    .logbanblan{
+        display: none;
+    }
     
     .container-campos-texto{
         padding: 10%;
@@ -55,7 +59,7 @@
     }
     
     
-    @media (max-width:858px){
+    @media (max-width:1080px){
         .container-campos{
             margin-left: 0px !important;
             width: 100%;
