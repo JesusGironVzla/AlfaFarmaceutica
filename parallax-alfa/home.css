@@ -432,12 +432,52 @@ ul{
   display: none;
 }
 
+@media  (max-width:1536px){
+  .compra-movil{
+    display: none;
+  }
+}
+
+@media (max-width:858px){
+  .compra-movil{
+    display: inline;
+
+
+ display: flex;
+ justify-content: center;
+
+  }
+
+  .nav-bar ul{
+    height: 70% !important;
+  }
+
+  .nav-menu img{
+    width: 50% !important;
+    height: 90% !important;
+    justify-content: center;
+  margin-left: 60px;
+  margin-top: -20px;
+  }
+
+  .compra{
+    display: none;
+  }
+
+
+
+}
+
+
+
+
+
   @media (max-width:1080px) {  
     
     .check-btn{
         display: block;
     }
-      
+      .compra-movil{}
       .nav-menu{
         display: flex;
         align-items: center;
