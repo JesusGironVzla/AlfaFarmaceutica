@@ -114,14 +114,16 @@ body{
 .container-suggestions li:hover{
     background-color: #414b57;
 }
-
+.search-input-box{
+	display: none;
+}
 
 /*********************RESPONSIVE********************/
 
 @media (max-width:1080px) {
  .farmaproduct{
 	width: 100%;
-	height: 500px;
+	
  }
 
 .containersearch{
